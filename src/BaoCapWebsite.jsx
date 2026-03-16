@@ -951,8 +951,8 @@ export default function BaoCapWebsite() {
           <p>Ngày 30/4/1975 đánh dấu bước ngoặt trọng đại: đất nước thống nhất sau hơn ba thập kỷ chiến tranh. Nhưng Việt Nam bước ra với nền kinh tế kiệt sức, hạ tầng tan hoang, và hai miền có mô hình kinh tế hoàn toàn khác biệt.</p>
           <div className="stats">
             {[
-              { num: "~80%", label: "Dân số làm nông nghiệp" },
-              { num: "3 tr.", label: "Người thiệt mạng trong chiến tranh" },
+              { num: "Phần lớn", label: "Dân số làm nông nghiệp" },
+              { num: "~ 2Tr.", label: "Người thiệt mạng trong chiến tranh" },
               { num: "774%", label: "Lạm phát đỉnh điểm năm 1986" },
               { num: "Cô lập", label: "Mỹ phong tỏa thương mại toàn diện" },
             ].map((s, i) => (
