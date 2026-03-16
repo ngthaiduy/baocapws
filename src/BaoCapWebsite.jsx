@@ -522,7 +522,6 @@ const limitData = [
     title: "Mất động lực sản xuất",
     tag: "Vấn đề cốt lõi",
     desc: "Thu nhập không gắn với kết quả lao động.",
-
     detail: [
       "Trong cơ chế bao cấp, lương của người lao động được nhà nước quy định cố định theo ngạch bậc, hoàn toàn không phụ thuộc vào năng suất hay chất lượng công việc. Một công nhân làm tốt và một công nhân làm kém nhận cùng một mức lương — thậm chí người làm kém còn được bảo vệ vì không ai bị sa thải.",
       "Hệ quả là người lao động không có lý do gì để cố gắng hơn mức tối thiểu. Sáng tạo, cải tiến, tăng năng suất đều không được khuyến khích và cũng không mang lại lợi ích gì cho cá nhân. Hiện tượng \"làm cho có\" lan rộng khắp nơi — từ nhà máy đến hợp tác xã, từ cơ quan nhà nước đến nông trường.",
@@ -952,7 +951,7 @@ export default function BaoCapWebsite() {
           <div className="stats">
             {[
               { num: "Phần lớn", label: "Dân số làm nông nghiệp" },
-              { num: "~ 2Tr.", label: "Người thiệt mạng trong chiến tranh" },
+              { num: "~ 5Tr.", label: "Người thiệt mạng trong chiến tranh" },
               { num: "774%", label: "Lạm phát đỉnh điểm năm 1986" },
               { num: "Cô lập", label: "Mỹ phong tỏa thương mại toàn diện" },
             ].map((s, i) => (
